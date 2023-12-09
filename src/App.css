@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body{
+  font-family: 'Inter',sans-serif;
+}
+
+header{
+  z-index: 1000 !important;
+}
+
+.btn-primary{
+  @apply px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDgrey transition-all duration-300 hover:-translate-y-4;
+}
